@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/home/wu/prac_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/prac_ws/build/example_cpp -- -j16 -l16
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target topic_publisher_01[0m
+[0.062s] [ 66%] Built target node_01
+[0.062s] [ 66%] Built target node_03
+[0.066s] [ 83%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[1.941s] [100%] [32m[1mLinking CXX executable topic_publisher_01[0m
+[2.044s] [100%] Built target topic_publisher_01
+[2.055s] Invoked command in '/home/wu/prac_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/prac_ws/build/example_cpp -- -j16 -l16
+[2.096s] Invoking command in '/home/wu/prac_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/prac_ws/build/example_cpp
+[2.100s] -- Install configuration: ""
+[2.100s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+[2.100s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+[2.100s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+[2.101s] -- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+[2.101s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/path.sh
+[2.101s] -- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/path.dsv
+[2.101s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.bash
+[2.101s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.sh
+[2.101s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.zsh
+[2.101s] -- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.dsv
+[2.101s] -- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/package.dsv
+[2.101s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+[2.101s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+[2.101s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+[2.101s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/package.xml
+[2.103s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_01
+[2.105s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_03
+[2.105s] -- Installing: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_publisher_01
+[2.105s] -- Set runtime path of "/home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_publisher_01" to ""
+[2.107s] Invoked command in '/home/wu/prac_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/prac_ws/build/example_cpp

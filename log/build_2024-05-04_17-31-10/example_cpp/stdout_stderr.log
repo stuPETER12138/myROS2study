@@ -1,0 +1,23 @@
+[ 75%] [32mBuilding CXX object CMakeFiles/node_03.dir/src/node_03.cpp.o[0m
+[ 75%] Built target node_01
+[100%] [32m[1mLinking CXX executable node_03[0m
+[100%] Built target node_03
+-- Install configuration: ""
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/path.sh
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/path.dsv
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.bash
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.sh
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.zsh
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.dsv
+-- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/package.dsv
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/package.xml
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_01
+-- Installing: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_03
+-- Set runtime path of "/home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_03" to ""

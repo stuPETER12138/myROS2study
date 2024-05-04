@@ -1,0 +1,11 @@
+[0.012s] Invoking command in '/home/wu/prac_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/prac_ws/build/example_cpp -- -j16 -l16
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target node_03[0m
+[0.064s] [ 50%] Built target node_01
+[0.069s] [ 75%] [32mBuilding CXX object CMakeFiles/node_03.dir/src/node_03.cpp.o[0m
+[1.597s] [01m[K/home/wu/prac_ws/src/example_cpp/src/node_03.cpp:24:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K/[m[K’ token
+[1.597s]    24 | *[01;31m[K/[m[K
+[1.597s]       |  [01;31m[K^[m[K
+[1.894s] gmake[2]: *** [CMakeFiles/node_03.dir/build.make:76: CMakeFiles/node_03.dir/src/node_03.cpp.o] Error 1
+[1.894s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/node_03.dir/all] Error 2
+[1.894s] gmake: *** [Makefile:146: all] Error 2
+[1.897s] Invoked command in '/home/wu/prac_ws/build/example_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/prac_ws/build/example_cpp -- -j16 -l16

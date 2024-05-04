@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/example_py/example_py.egg-info
+writing ../../build/example_py/example_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/example_py/example_py.egg-info/dependency_links.txt
+writing entry points to ../../build/example_py/example_py.egg-info/entry_points.txt
+writing requirements to ../../build/example_py/example_py.egg-info/requires.txt
+writing top-level names to ../../build/example_py/example_py.egg-info/top_level.txt
+writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wu/prac_ws/build/example_py/build
+creating /home/wu/prac_ws/build/example_py/build/lib
+creating /home/wu/prac_ws/build/example_py/build/lib/example_py
+copying example_py/node_02.py -> /home/wu/prac_ws/build/example_py/build/lib/example_py
+copying example_py/__init__.py -> /home/wu/prac_ws/build/example_py/build/lib/example_py
+running install
+running install_lib
+creating /home/wu/prac_ws/install/example_py/lib/python3.10/site-packages/example_py
+copying /home/wu/prac_ws/build/example_py/build/lib/example_py/node_02.py -> /home/wu/prac_ws/install/example_py/lib/python3.10/site-packages/example_py
+copying /home/wu/prac_ws/build/example_py/build/lib/example_py/__init__.py -> /home/wu/prac_ws/install/example_py/lib/python3.10/site-packages/example_py
+byte-compiling /home/wu/prac_ws/install/example_py/lib/python3.10/site-packages/example_py/node_02.py to node_02.cpython-310.pyc
+byte-compiling /home/wu/prac_ws/install/example_py/lib/python3.10/site-packages/example_py/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wu/prac_ws/install/example_py/share/ament_index
+creating /home/wu/prac_ws/install/example_py/share/ament_index/resource_index
+creating /home/wu/prac_ws/install/example_py/share/ament_index/resource_index/packages
+copying resource/example_py -> /home/wu/prac_ws/install/example_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/wu/prac_ws/install/example_py/share/example_py
+running install_egg_info
+Copying ../../build/example_py/example_py.egg-info to /home/wu/prac_ws/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing node_02 script to /home/wu/prac_ws/install/example_py/lib/example_py
+writing list of installed files to '/home/wu/prac_ws/build/example_py/install.log'

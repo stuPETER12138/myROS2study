@@ -1,0 +1,6 @@
+[01m[K/home/wu/prac_ws/src/example_cpp/src/node_03.cpp:24:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K/[m[K’ token
+   24 | *[01;31m[K/[m[K
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/node_03.dir/build.make:76: CMakeFiles/node_03.dir/src/node_03.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/node_03.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

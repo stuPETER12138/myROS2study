@@ -1,0 +1,37 @@
+[0.369s] Invoking command in '/home/wu/prac_ws/src/example_py': PYTHONPATH=/home/wu/prac_ws/build/example_py/prefix_override:/home/wu/prac_ws/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /home/wu/prac_ws/build/example_py/build install --record /home/wu/prac_ws/build/example_py/install.log --single-version-externally-managed install_data
+[0.505s] running egg_info
+[0.505s] creating ../../build/example_py/example_py.egg-info
+[0.505s] writing ../../build/example_py/example_py.egg-info/PKG-INFO
+[0.505s] writing dependency_links to ../../build/example_py/example_py.egg-info/dependency_links.txt
+[0.505s] writing entry points to ../../build/example_py/example_py.egg-info/entry_points.txt
+[0.506s] writing requirements to ../../build/example_py/example_py.egg-info/requires.txt
+[0.506s] writing top-level names to ../../build/example_py/example_py.egg-info/top_level.txt
+[0.506s] writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[0.506s] reading manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[0.507s] writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[0.507s] running build
+[0.507s] running build_py
+[0.507s] creating /home/wu/prac_ws/build/example_py/build
+[0.507s] creating /home/wu/prac_ws/build/example_py/build/lib
+[0.507s] creating /home/wu/prac_ws/build/example_py/build/lib/example_py
+[0.507s] copying example_py/node_02.py -> /home/wu/prac_ws/build/example_py/build/lib/example_py
+[0.508s] copying example_py/__init__.py -> /home/wu/prac_ws/build/example_py/build/lib/example_py
+[0.508s] running install
+[0.508s] running install_lib
+[0.508s] creating /home/wu/prac_ws/install/example_py/lib/python3.10/site-packages/example_py
+[0.508s] copying /home/wu/prac_ws/build/example_py/build/lib/example_py/node_02.py -> /home/wu/prac_ws/install/example_py/lib/python3.10/site-packages/example_py
+[0.508s] copying /home/wu/prac_ws/build/example_py/build/lib/example_py/__init__.py -> /home/wu/prac_ws/install/example_py/lib/python3.10/site-packages/example_py
+[0.508s] byte-compiling /home/wu/prac_ws/install/example_py/lib/python3.10/site-packages/example_py/node_02.py to node_02.cpython-310.pyc
+[0.509s] byte-compiling /home/wu/prac_ws/install/example_py/lib/python3.10/site-packages/example_py/__init__.py to __init__.cpython-310.pyc
+[0.509s] running install_data
+[0.509s] creating /home/wu/prac_ws/install/example_py/share/ament_index
+[0.509s] creating /home/wu/prac_ws/install/example_py/share/ament_index/resource_index
+[0.509s] creating /home/wu/prac_ws/install/example_py/share/ament_index/resource_index/packages
+[0.509s] copying resource/example_py -> /home/wu/prac_ws/install/example_py/share/ament_index/resource_index/packages
+[0.509s] copying package.xml -> /home/wu/prac_ws/install/example_py/share/example_py
+[0.509s] running install_egg_info
+[0.510s] Copying ../../build/example_py/example_py.egg-info to /home/wu/prac_ws/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info
+[0.511s] running install_scripts
+[0.524s] Installing node_02 script to /home/wu/prac_ws/install/example_py/lib/example_py
+[0.524s] writing list of installed files to '/home/wu/prac_ws/build/example_py/install.log'
+[0.545s] Invoked command in '/home/wu/prac_ws/src/example_py' returned '0': PYTHONPATH=/home/wu/prac_ws/build/example_py/prefix_override:/home/wu/prac_ws/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /home/wu/prac_ws/build/example_py/build install --record /home/wu/prac_ws/build/example_py/install.log --single-version-externally-managed install_data

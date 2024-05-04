@@ -1,0 +1,6 @@
+Invoking command in '/home/wu/prac_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wu/prac_ws/src/example_cpp -DCMAKE_INSTALL_PREFIX=/home/wu/prac_ws/install/example_cpp
+Invoked command in '/home/wu/prac_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wu/prac_ws/src/example_cpp -DCMAKE_INSTALL_PREFIX=/home/wu/prac_ws/install/example_cpp
+Invoking command in '/home/wu/prac_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/prac_ws/build/example_cpp -- -j16 -l16
+Invoked command in '/home/wu/prac_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/prac_ws/build/example_cpp -- -j16 -l16
+Invoking command in '/home/wu/prac_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/prac_ws/build/example_cpp
+Invoked command in '/home/wu/prac_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/prac_ws/build/example_cpp
