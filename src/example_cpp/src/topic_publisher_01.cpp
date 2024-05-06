@@ -7,10 +7,11 @@ class TopicPublisher01:public rclcpp::Node
         TopicPublisher01(std::string name):Node(name)
         {
             RCLCPP_INFO(this->get_logger(), "%s node has started.", name.c_str());
+            command_publisher_ = this->create_publisher<std_msgs::msg::String>("command", 10); 
         }
 
     private:
-
+        rclcpp::Publisher<std_msgs:msg::String>::SharedPtr command_publisher_;
 };
 
 int main(int argc, char **argv)
