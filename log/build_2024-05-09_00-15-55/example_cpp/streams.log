@@ -1,0 +1,63 @@
+[0.010s] Invoking command in '/home/wu/prac_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/prac_ws/build/example_cpp -- -j16 -l16
+[0.036s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.127s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.144s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.145s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.149s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.156s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.165s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.197s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.198s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.291s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.388s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.448s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.448s] -- Configured cppcheck include dirs: 
+[0.448s] -- Configured cppcheck exclude dirs and/or files: 
+[0.448s] -- Added test 'lint_cmake' to check CMake code style
+[0.449s] -- Added test 'uncrustify' to check C / C++ code style
+[0.449s] -- Configured uncrustify additional arguments: 
+[0.449s] -- Added test 'xmllint' to check XML markup files
+[0.451s] -- Configuring done
+[0.455s] [33mCMake Warning (dev) at CMakeLists.txt:42 (add_executable):
+[0.455s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[0.455s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[0.455s]   command to set the policy and suppress this warning.
+[0.455s] 
+[0.455s]   File:
+[0.456s] 
+[0.456s]     /home/wu/prac_ws/src/example_cpp/src/topic_publisher_01.cpp
+[0.456s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.456s] [0m
+[0.467s] -- Generating done
+[0.469s] -- Build files have been written to: /home/wu/prac_ws/build/example_cpp
+[0.517s] [35m[1mConsolidate compiler generated dependencies of target node_03[0m
+[0.517s] [35m[1mConsolidate compiler generated dependencies of target node_01[0m
+[0.517s] [35m[1mConsolidate compiler generated dependencies of target topic_publisher_01[0m
+[0.544s] [ 83%] Built target node_01
+[0.545s] [ 83%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[0.545s] [ 83%] Built target node_03
+[3.814s] [100%] [32m[1mLinking CXX executable topic_publisher_01[0m
+[3.978s] [100%] Built target topic_publisher_01
+[3.989s] Invoked command in '/home/wu/prac_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/prac_ws/build/example_cpp -- -j16 -l16
+[4.043s] Invoking command in '/home/wu/prac_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/prac_ws/build/example_cpp
+[4.049s] -- Install configuration: ""
+[4.049s] -- Installing: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+[4.049s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+[4.049s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+[4.049s] -- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+[4.049s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/path.sh
+[4.049s] -- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/path.dsv
+[4.049s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.bash
+[4.050s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.sh
+[4.050s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.zsh
+[4.050s] -- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.dsv
+[4.050s] -- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/package.dsv
+[4.050s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+[4.050s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+[4.050s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+[4.050s] -- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/package.xml
+[4.051s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_01
+[4.052s] -- Up-to-date: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_03
+[4.053s] -- Installing: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_publisher_01
+[4.054s] -- Set runtime path of "/home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_publisher_01" to ""
+[4.056s] Invoked command in '/home/wu/prac_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wu/prac_ws/build/example_cpp

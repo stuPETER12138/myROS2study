@@ -1,0 +1,62 @@
+[0.011s] Invoking command in '/home/wu/prac_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/prac_ws/build/example_cpp -- -j16 -l16
+[0.057s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.162s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.186s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.187s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.195s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.215s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.257s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.258s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.352s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.452s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.542s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.542s] -- Configured cppcheck include dirs: 
+[0.542s] -- Configured cppcheck exclude dirs and/or files: 
+[0.542s] -- Added test 'lint_cmake' to check CMake code style
+[0.543s] -- Added test 'uncrustify' to check C / C++ code style
+[0.543s] -- Configured uncrustify additional arguments: 
+[0.543s] -- Added test 'xmllint' to check XML markup files
+[0.546s] -- Configuring done
+[0.551s] [33mCMake Warning (dev) at CMakeLists.txt:42 (add_executable):
+[0.551s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[0.551s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[0.551s]   command to set the policy and suppress this warning.
+[0.552s] 
+[0.552s]   File:
+[0.552s] 
+[0.552s]     /home/wu/prac_ws/src/example_cpp/src/topic_publisher_01.cpp
+[0.552s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.552s] [0m
+[0.567s] -- Generating done
+[0.568s] -- Build files have been written to: /home/wu/prac_ws/build/example_cpp
+[0.602s] [35m[1mConsolidate compiler generated dependencies of target node_01[0m
+[0.602s] [35m[1mConsolidate compiler generated dependencies of target topic_publisher_01[0m
+[0.602s] [35m[1mConsolidate compiler generated dependencies of target node_03[0m
+[0.622s] [ 83%] Built target node_03
+[0.622s] [ 83%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[0.622s] [ 83%] Built target node_01
+[2.873s] [01m[K/home/wu/prac_ws/src/example_cpp/src/topic_publisher_01.cpp:32:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.873s]    32 |         rclcpp::Publisher<std_msgs:msg::String[01;31m[K>[m[K::SharedPtr command_publisher_;
+[2.873s]       |                                               [01;31m[K^[m[K
+[2.873s] [01m[K/home/wu/prac_ws/src/example_cpp/src/topic_publisher_01.cpp:32:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.873s]    32 |         rclcpp::Publisher<std_msgs:msg::String>::[01;31m[KSharedPtr[m[K command_publisher_;
+[2.873s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[2.873s]       |                                                           [32m[K;[m[K
+[2.881s] [01m[K/home/wu/prac_ws/src/example_cpp/src/topic_publisher_01.cpp:32:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_publisher_[m[K’ does not name a type
+[2.881s]    32 |         rclcpp::Publisher<std_msgs:msg::String>::SharedPtr [01;31m[Kcommand_publisher_[m[K;
+[2.881s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.887s] [01m[K/home/wu/prac_ws/src/example_cpp/src/topic_publisher_01.cpp:[m[K In constructor ‘[01m[KTopicPublisher01::TopicPublisher01(std::string)[m[K’:
+[2.887s] [01m[K/home/wu/prac_ws/src/example_cpp/src/topic_publisher_01.cpp:11:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[2.887s]    11 |             [01;31m[Kcommand_publisher_[m[K = this->create_publisher<std_msgs::msg::String>("command", 10);
+[2.887s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.887s]       |             [32m[Kcount_publishers[m[K
+[2.908s] [01m[K/home/wu/prac_ws/src/example_cpp/src/topic_publisher_01.cpp:[m[K In member function ‘[01m[Kvoid TopicPublisher01::timer_callback()[m[K’:
+[2.908s] [01m[K/home/wu/prac_ws/src/example_cpp/src/topic_publisher_01.cpp:27:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[2.908s]    27 |             [01;31m[Kcommand_publisher_[m[K->publish(message);
+[2.908s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.909s]       |             [32m[Kcount_publishers[m[K
+[3.486s] gmake[2]: *** [CMakeFiles/topic_publisher_01.dir/build.make:76: CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o] Error 1
+[3.487s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/topic_publisher_01.dir/all] Error 2
+[3.487s] gmake: *** [Makefile:146: all] Error 2
+[3.490s] Invoked command in '/home/wu/prac_ws/build/example_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/prac_ws/build/example_cpp -- -j16 -l16

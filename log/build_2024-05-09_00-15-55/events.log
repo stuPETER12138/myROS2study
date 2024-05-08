@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000381] (-) JobUnselected: {'identifier': 'example_py'}
+[0.000421] (example_cpp) JobQueued: {'identifier': 'example_cpp', 'dependencies': OrderedDict()}
+[0.000442] (example_cpp) JobStarted: {'identifier': 'example_cpp'}
+[0.008087] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'cmake'}
+[0.008600] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'build'}
+[0.009313] (example_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wu/prac_ws/build/example_cpp', '--', '-j16', '-l16'], 'cwd': '/home/wu/prac_ws/build/example_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'wu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.89.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1087'), ('SYSTEMD_EXEC_PID', '1453'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2875'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wu'), ('JOURNAL_STREAM', '8:34276'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1412,unix/robot:/tmp/.ICE-unix/1412'), ('INVOCATION_ID', '85e900437215438da39a2b98120fda44'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7d323e8e9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wu/prac_ws/build/example_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.036300] (example_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099317] (-) TimerEvent: {}
+[0.127255] (example_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.144735] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.145979] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.149495] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.156207] (example_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.165204] (example_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.197503] (example_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.198333] (example_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199385] (-) TimerEvent: {}
+[0.291783] (example_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299500] (-) TimerEvent: {}
+[0.388430] (example_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.399620] (-) TimerEvent: {}
+[0.448322] (example_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.448704] (example_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.448842] (example_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.448951] (example_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.449228] (example_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.449274] (example_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.449425] (example_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.451384] (example_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.455155] (example_cpp) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:42 (add_executable):\n'}
+[0.455454] (example_cpp) StderrLine: {'line': b'  Policy CMP0115 is not set: Source file extensions must be explicit.  Run\n'}
+[0.455612] (example_cpp) StderrLine: {'line': b'  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy\n'}
+[0.455748] (example_cpp) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.455863] (example_cpp) StderrLine: {'line': b'\n'}
+[0.455974] (example_cpp) StderrLine: {'line': b'  File:\n'}
+[0.456053] (example_cpp) StderrLine: {'line': b'\n'}
+[0.456124] (example_cpp) StderrLine: {'line': b'    /home/wu/prac_ws/src/example_cpp/src/topic_publisher_01.cpp\n'}
+[0.456214] (example_cpp) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.456286] (example_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[0.467263] (example_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.469239] (example_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/wu/prac_ws/build/example_cpp\n'}
+[0.499921] (-) TimerEvent: {}
+[0.517678] (example_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target node_03\x1b[0m\n'}
+[0.517932] (example_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target node_01\x1b[0m\n'}
+[0.517987] (example_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target topic_publisher_01\x1b[0m\n'}
+[0.544806] (example_cpp) StdoutLine: {'line': b'[ 83%] Built target node_01\n'}
+[0.545061] (example_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o\x1b[0m\n'}
+[0.545108] (example_cpp) StdoutLine: {'line': b'[ 83%] Built target node_03\n'}
+[0.600068] (-) TimerEvent: {}
+[0.700504] (-) TimerEvent: {}
+[0.800874] (-) TimerEvent: {}
+[0.901330] (-) TimerEvent: {}
+[1.001767] (-) TimerEvent: {}
+[1.102189] (-) TimerEvent: {}
+[1.202700] (-) TimerEvent: {}
+[1.303129] (-) TimerEvent: {}
+[1.403585] (-) TimerEvent: {}
+[1.504019] (-) TimerEvent: {}
+[1.604446] (-) TimerEvent: {}
+[1.704887] (-) TimerEvent: {}
+[1.805322] (-) TimerEvent: {}
+[1.905754] (-) TimerEvent: {}
+[2.006167] (-) TimerEvent: {}
+[2.106505] (-) TimerEvent: {}
+[2.206886] (-) TimerEvent: {}
+[2.307348] (-) TimerEvent: {}
+[2.407848] (-) TimerEvent: {}
+[2.508343] (-) TimerEvent: {}
+[2.608721] (-) TimerEvent: {}
+[2.709051] (-) TimerEvent: {}
+[2.809415] (-) TimerEvent: {}
+[2.909746] (-) TimerEvent: {}
+[3.010126] (-) TimerEvent: {}
+[3.110569] (-) TimerEvent: {}
+[3.211127] (-) TimerEvent: {}
+[3.311905] (-) TimerEvent: {}
+[3.412549] (-) TimerEvent: {}
+[3.513020] (-) TimerEvent: {}
+[3.613882] (-) TimerEvent: {}
+[3.715055] (-) TimerEvent: {}
+[3.814262] (example_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable topic_publisher_01\x1b[0m\n'}
+[3.815130] (-) TimerEvent: {}
+[3.915426] (-) TimerEvent: {}
+[3.978443] (example_cpp) StdoutLine: {'line': b'[100%] Built target topic_publisher_01\n'}
+[3.989598] (example_cpp) CommandEnded: {'returncode': 0}
+[4.015548] (-) TimerEvent: {}
+[4.030341] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'install'}
+[4.043010] (example_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wu/prac_ws/build/example_cpp'], 'cwd': '/home/wu/prac_ws/build/example_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'wu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.89.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1087'), ('SYSTEMD_EXEC_PID', '1453'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2875'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'wu'), ('JOURNAL_STREAM', '8:34276'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1412,unix/robot:/tmp/.ICE-unix/1412'), ('INVOCATION_ID', '85e900437215438da39a2b98120fda44'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7d323e8e9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/wu/prac_ws/build/example_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.049064] (example_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.049245] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp\n'}
+[4.049406] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp\n'}
+[4.049543] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh\n'}
+[4.049622] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv\n'}
+[4.049767] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/path.sh\n'}
+[4.049839] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/path.dsv\n'}
+[4.049996] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.bash\n'}
+[4.050071] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.sh\n'}
+[4.050140] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.zsh\n'}
+[4.050221] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.dsv\n'}
+[4.050292] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/package.dsv\n'}
+[4.050362] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp\n'}
+[4.050431] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake\n'}
+[4.050501] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake\n'}
+[4.050571] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/package.xml\n'}
+[4.051692] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_01\n'}
+[4.052392] (example_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_03\n'}
+[4.053240] (example_cpp) StdoutLine: {'line': b'-- Installing: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_publisher_01\n'}
+[4.054756] (example_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_publisher_01" to ""\n'}
+[4.056380] (example_cpp) CommandEnded: {'returncode': 0}
+[4.108027] (example_cpp) JobEnded: {'identifier': 'example_cpp', 'rc': 0}
+[4.108977] (-) EventReactorShutdown: {}
