@@ -16,3 +16,4 @@
 /home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_01
 /home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_03
 /home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_publisher_01
+/home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_subscribe_01

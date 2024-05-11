@@ -1,0 +1,70 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wu/prac_ws/build/example_cpp
+[35m[1mConsolidate compiler generated dependencies of target node_01[0m
+[35m[1mConsolidate compiler generated dependencies of target topic_publisher_01[0m
+[35m[1mConsolidate compiler generated dependencies of target node_03[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[ 75%] Built target node_03
+[ 62%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[ 75%] Built target node_01
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/wu/prac_ws/src/example_cpp/src/topic_subscribe_01.cpp:1[m[K:
+[01m[K/home/wu/prac_ws/src/example_cpp/src/topic_subscribe_01.cpp:[m[K In constructor ‘[01m[KTopicSubscribe01::TopicSubscribe01(std::string)[m[K’:
+[01m[K/home/wu/prac_ws/src/example_cpp/src/topic_subscribe_01.cpp:7:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+    7 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"大家好，我是$s。"[m[K, name.c_str());
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[ 87%] [32m[1mLinking CXX executable topic_subscribe_01[0m
+[ 87%] Built target topic_subscribe_01
+[100%] [32m[1mLinking CXX executable topic_publisher_01[0m
+[100%] Built target topic_publisher_01
+-- Install configuration: ""
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/path.sh
+-- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/path.dsv
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.bash
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.sh
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.zsh
+-- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.dsv
+-- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/package.dsv
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/package.xml
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_01
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_03
+-- Installing: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_publisher_01
+-- Set runtime path of "/home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_publisher_01" to ""
+-- Installing: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_subscribe_01
+-- Set runtime path of "/home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_subscribe_01" to ""

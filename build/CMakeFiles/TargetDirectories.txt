@@ -3,6 +3,7 @@
 /home/wu/prac_ws/build/CMakeFiles/node_01.dir
 /home/wu/prac_ws/build/CMakeFiles/node_03.dir
 /home/wu/prac_ws/build/CMakeFiles/topic_publisher_01.dir
+/home/wu/prac_ws/build/CMakeFiles/topic_subscribe_01.dir
 /home/wu/prac_ws/build/CMakeFiles/test.dir
 /home/wu/prac_ws/build/CMakeFiles/edit_cache.dir
 /home/wu/prac_ws/build/CMakeFiles/rebuild_cache.dir

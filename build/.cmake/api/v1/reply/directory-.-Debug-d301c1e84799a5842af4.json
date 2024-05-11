@@ -230,6 +230,12 @@
 				"file" : 4,
 				"line" : 44,
 				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 51,
+				"parent" : 0
 			}
 		]
 	},
@@ -410,6 +416,18 @@
 			],
 			"targetId" : "topic_publisher_01::@6890427a1f51a3e7e1df",
 			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "lib/example_cpp",
+			"paths" : 
+			[
+				"topic_subscribe_01"
+			],
+			"targetId" : "topic_subscribe_01::@6890427a1f51a3e7e1df",
+			"targetIndex" : 4,
 			"type" : "target"
 		}
 	],

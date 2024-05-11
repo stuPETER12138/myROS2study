@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-d7f9911bd94100095761.json",
+					"jsonFile" : "directory-.-Debug-d301c1e84799a5842af4.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
@@ -20,7 +20,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -39,7 +40,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -71,6 +73,13 @@
 					"id" : "topic_publisher_01::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-topic_publisher_01-Debug-b3ae8cee503ce533ac9f.json",
 					"name" : "topic_publisher_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_subscribe_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_subscribe_01-Debug-dac5af4a3041453780e6.json",
+					"name" : "topic_subscribe_01",
 					"projectIndex" : 0
 				},
 				{

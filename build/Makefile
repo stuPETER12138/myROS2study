@@ -236,6 +236,19 @@ topic_publisher_01/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_publisher_01.dir/build.make CMakeFiles/topic_publisher_01.dir/build
 .PHONY : topic_publisher_01/fast
 
+#=============================================================================
+# Target rules for targets named topic_subscribe_01
+
+# Build rule for target.
+topic_subscribe_01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 topic_subscribe_01
+.PHONY : topic_subscribe_01
+
+# fast build rule for target.
+topic_subscribe_01/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_subscribe_01.dir/build.make CMakeFiles/topic_subscribe_01.dir/build
+.PHONY : topic_subscribe_01/fast
+
 src/node_01.o: src/node_01.cpp.o
 .PHONY : src/node_01.o
 
@@ -308,6 +321,30 @@ src/topic_publisher_01.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_publisher_01.dir/build.make CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.s
 .PHONY : src/topic_publisher_01.cpp.s
 
+src/topic_subscribe_01.o: src/topic_subscribe_01.cpp.o
+.PHONY : src/topic_subscribe_01.o
+
+# target to build an object file
+src/topic_subscribe_01.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_subscribe_01.dir/build.make CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o
+.PHONY : src/topic_subscribe_01.cpp.o
+
+src/topic_subscribe_01.i: src/topic_subscribe_01.cpp.i
+.PHONY : src/topic_subscribe_01.i
+
+# target to preprocess a source file
+src/topic_subscribe_01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_subscribe_01.dir/build.make CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.i
+.PHONY : src/topic_subscribe_01.cpp.i
+
+src/topic_subscribe_01.s: src/topic_subscribe_01.cpp.s
+.PHONY : src/topic_subscribe_01.s
+
+# target to generate assembly for a file
+src/topic_subscribe_01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_subscribe_01.dir/build.make CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.s
+.PHONY : src/topic_subscribe_01.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -326,6 +363,7 @@ help:
 	@echo "... node_01"
 	@echo "... node_03"
 	@echo "... topic_publisher_01"
+	@echo "... topic_subscribe_01"
 	@echo "... src/node_01.o"
 	@echo "... src/node_01.i"
 	@echo "... src/node_01.s"
@@ -335,6 +373,9 @@ help:
 	@echo "... src/topic_publisher_01.o"
 	@echo "... src/topic_publisher_01.i"
 	@echo "... src/topic_publisher_01.s"
+	@echo "... src/topic_subscribe_01.o"
+	@echo "... src/topic_subscribe_01.i"
+	@echo "... src/topic_subscribe_01.s"
 .PHONY : help
 
 

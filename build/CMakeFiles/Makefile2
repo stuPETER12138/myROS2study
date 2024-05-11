@@ -66,6 +66,7 @@ CMAKE_BINARY_DIR = /home/wu/prac_ws/build
 all: CMakeFiles/node_01.dir/all
 all: CMakeFiles/node_03.dir/all
 all: CMakeFiles/topic_publisher_01.dir/all
+all: CMakeFiles/topic_subscribe_01.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +79,7 @@ clean: CMakeFiles/example_cpp_uninstall.dir/clean
 clean: CMakeFiles/node_01.dir/clean
 clean: CMakeFiles/node_03.dir/clean
 clean: CMakeFiles/topic_publisher_01.dir/clean
+clean: CMakeFiles/topic_subscribe_01.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -209,6 +211,32 @@ topic_publisher_01: CMakeFiles/topic_publisher_01.dir/rule
 CMakeFiles/topic_publisher_01.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_publisher_01.dir/build.make CMakeFiles/topic_publisher_01.dir/clean
 .PHONY : CMakeFiles/topic_publisher_01.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/topic_subscribe_01.dir
+
+# All Build rule for target.
+CMakeFiles/topic_subscribe_01.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_subscribe_01.dir/build.make CMakeFiles/topic_subscribe_01.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_subscribe_01.dir/build.make CMakeFiles/topic_subscribe_01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wu/prac_ws/build/CMakeFiles --progress-num=7,8 "Built target topic_subscribe_01"
+.PHONY : CMakeFiles/topic_subscribe_01.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/topic_subscribe_01.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wu/prac_ws/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/topic_subscribe_01.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wu/prac_ws/build/CMakeFiles 0
+.PHONY : CMakeFiles/topic_subscribe_01.dir/rule
+
+# Convenience name for target.
+topic_subscribe_01: CMakeFiles/topic_subscribe_01.dir/rule
+.PHONY : topic_subscribe_01
+
+# clean rule for target.
+CMakeFiles/topic_subscribe_01.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_subscribe_01.dir/build.make CMakeFiles/topic_subscribe_01.dir/clean
+.PHONY : CMakeFiles/topic_subscribe_01.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
