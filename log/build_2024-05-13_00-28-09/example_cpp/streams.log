@@ -1,0 +1,14 @@
+[0.013s] Invoking command in '/home/wu/prac_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/prac_ws/build/example_cpp -- -j16 -l16
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target topic_subscribe_01[0m
+[0.071s] [ 75%] Built target topic_publisher_01
+[0.071s] [ 75%] Built target node_03
+[0.071s] [ 75%] Built target node_01
+[0.075s] [ 87%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[2.501s] [01m[K/home/wu/prac_ws/src/example_cpp/src/topic_subscribe_01.cpp:[m[K In member function ‘[01m[Kvoid TopicSubscribe01::command_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.502s] [01m[K/home/wu/prac_ws/src/example_cpp/src/topic_subscribe_01.cpp:21:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.502s]    21 |         [01;31m[K}[m[K;
+[2.502s]       |         [01;31m[K^[m[K
+[4.240s] gmake[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:76: CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o] Error 1
+[4.240s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/topic_subscribe_01.dir/all] Error 2
+[4.241s] gmake: *** [Makefile:146: all] Error 2
+[4.243s] Invoked command in '/home/wu/prac_ws/build/example_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wu/prac_ws/build/example_cpp -- -j16 -l16

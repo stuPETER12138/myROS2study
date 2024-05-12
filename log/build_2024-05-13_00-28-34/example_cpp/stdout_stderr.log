@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target topic_subscribe_01[0m
+[ 75%] Built target topic_publisher_01
+[ 75%] Built target node_01
+[ 75%] Built target node_03
+[ 87%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[100%] [32m[1mLinking CXX executable topic_subscribe_01[0m
+[100%] Built target topic_subscribe_01
+-- Install configuration: ""
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/path.sh
+-- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/environment/path.dsv
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.bash
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.sh
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.zsh
+-- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/local_setup.dsv
+-- Installing: /home/wu/prac_ws/install/example_cpp/share/example_cpp/package.dsv
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/share/example_cpp/package.xml
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_01
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/node_03
+-- Up-to-date: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_publisher_01
+-- Installing: /home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_subscribe_01
+-- Set runtime path of "/home/wu/prac_ws/install/example_cpp/lib/example_cpp/topic_subscribe_01" to ""

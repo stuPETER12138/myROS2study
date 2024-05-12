@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target topic_subscribe_01[0m
+[ 75%] Built target topic_publisher_01
+[ 75%] Built target node_03
+[ 75%] Built target node_01
+[ 87%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[01m[K/home/wu/prac_ws/src/example_cpp/src/topic_subscribe_01.cpp:[m[K In member function ‘[01m[Kvoid TopicSubscribe01::command_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/wu/prac_ws/src/example_cpp/src/topic_subscribe_01.cpp:21:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   21 |         [01;31m[K}[m[K;
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:76: CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/topic_subscribe_01.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
