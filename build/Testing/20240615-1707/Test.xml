@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240615-1707-Experimental"
+	Name="robot"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="robot"
+	OSRelease="6.9.3-060903-generic"
+	OSVersion="#202405300957 SMP PREEMPT_DYNAMIC Thu May 30 11:39:13 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="117"
+	ProcessorCacheSize="1024"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="23313"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4574.17"
+	>
+	<Testing>
+		<StartDateTime>Jun 16 01:07 CST</StartDateTime>
+		<StartTestTime>1718471251</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jun 16 01:07 CST</EndDateTime>
+		<EndTestTime>1718471251</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
